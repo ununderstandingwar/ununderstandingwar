@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ----
-        run: echo < ls
+        run: ls | echo
       - name: ----
         run: echo | ls
       - name: Every time
