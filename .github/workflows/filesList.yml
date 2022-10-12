@@ -10,7 +10,9 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
-      - name: lllll
-        run: ls
+      - name: ----
+        run: ls > echo
+      - name: ----
+        run: ls | echo
       - name: Every time
         run: echo "This step will always run"
