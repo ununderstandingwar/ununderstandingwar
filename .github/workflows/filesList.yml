@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: lllll
-        run: ll
+        run: ls
       - name: Every time
         run: echo "This step will always run"
