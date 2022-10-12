@@ -10,6 +10,8 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
       - name: ----
         run: ls > fileList.txt
       - name: ----
